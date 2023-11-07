@@ -1,0 +1,96 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("assets/background-cloud.jpg");
+    background-size: cover;
+  }
+  
+  .en-tete {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  .le-logo {
+    width: 100px;
+    height: 98px;
+    background-size: cover;
+  }
+  
+  .text-entete {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  button {
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    font: normal bold 20px/100px "Roboto Mono", monospace;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.3s;
+    color: #ffffffff;
+  }
+  
+  button:hover {
+    background-color: #ffffffff;
+    color: black;
+  }
+  
+  .icon {
+    width: 35px;
+  }
+  
+  .text-Danile {
+    display: flex;
+    height: 150px;
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  
+  .card {
+    display: flex;
+    border-radius: 35px;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
+    height: 456px;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .img {
+    width: 456px;
+    height: 430px;
+    border-radius: 25px;
+  }
+  .img:hover {
+    transform: scale(1.02);
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+  }
+  
+  .tanks {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+  }
+  
